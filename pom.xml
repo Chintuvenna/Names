@@ -61,5 +61,6 @@
                 </configuration>
             </plugin>
         </plugins>
+             <finalName>Names</finalName>
     </build>
 </project>
