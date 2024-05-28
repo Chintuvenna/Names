@@ -7,6 +7,12 @@ services:
       - "8080:8080"
     depends_on:
       - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: password
+      DB_NAME: example_db
 
   db:
     image: mysql:8.0.37
