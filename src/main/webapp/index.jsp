@@ -15,7 +15,7 @@
             Class.forName("com.mysql.jdbc.Driver");
 
             // Connect to MySQL database
-            private static finalString url = "jdbc:mysql://db:3306/example_db";
+            private static final String url = "jdbc:mysql://db:3306/example_db";
             String username = "root";
             String password = "password";
             Connection conn = DriverManager.getConnection(url, username, password);
